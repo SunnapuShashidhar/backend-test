@@ -4,9 +4,10 @@
   "description": "",
   "main": "./functions/api.js",
   "scripts": {
-    CI='' npm run build
+    
     "start": "./node_modules/.bin/netlify-lambda serve src",
     "build": "./node_modules/.bin/netlify-lambda build src"
+    CI='' npm run build
   },
   "keywords": [],
   "author": "",
