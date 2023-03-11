@@ -4,8 +4,8 @@
   "description": "",
   "main": "./functions/api.js",
   "scripts": {
-    "start": "NODE_ENV=development ./nodemodules/.bin/netlify.lambda serve src",
-    "build": "NODE_ENV=production ./nodemodules/.bin/netlify.lambda serve src"
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
   },
   "keywords": [],
   "author": "",
